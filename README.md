@@ -1,8 +1,8 @@
 Pushbullet for PHP
 ================
-[![](https://img.shields.io/packagist/v/ivkos/pushbullet.svg?style=flat-square)](https://packagist.org/packages/ivkos/pushbullet)
-[![](https://img.shields.io/packagist/dt/ivkos/pushbullet.svg?style=flat-square)](https://packagist.org/packages/ivkos/pushbullet)
-[![](https://img.shields.io/packagist/l/ivkos/pushbullet.svg?style=flat-square)](LICENSE)
+[![](https://img.shields.io/packagist/v/pcs/pushbullet.svg?style=flat-square)](https://packagist.org/packages/pcs/pushbullet)
+[![](https://img.shields.io/packagist/dt/pcs/pushbullet.svg?style=flat-square)](https://packagist.org/packages/pcs/pushbullet)
+[![](https://img.shields.io/packagist/l/pcs/pushbullet.svg?style=flat-square)](LICENSE)
 
 ## Description
 A PHP library for the **[Pushbullet](https://www.pushbullet.com)** API allowing you to send all supported push notification types, manage contacts, send SMS messages, create/delete channels, and manage channel subscriptions.
@@ -25,7 +25,7 @@ Create a `composer.json` file in your project root:
 ```json
 {
     "require": {
-        "ivkos/pushbullet": "3.*"
+        "pcs/pushbullet": "4.*"
     }
 }
 ```
@@ -101,7 +101,7 @@ Arguments:
 - Body
 
 ```php
-$pb->device("Galaxy S4")->pushLink("ivkos on GitHub", "https://github.com/ivkos", "Look at my page!");
+$pb->device("Galaxy S4")->pushLink("pcs on GitHub", "https://github.com/pcs", "Look at my page!");
 ```
 
 #### Address
@@ -139,7 +139,7 @@ Arguments:
 
 ```php
 $pb->device("Galaxy S4")->pushFile(
-	"/home/ivkos/photos/20150314_092653.jpg",
+	"/home/pcs/photos/20150314_092653.jpg",
 	"image/jpeg",
 	"Look at this photo!",
 	"I think it's pretty cool",
