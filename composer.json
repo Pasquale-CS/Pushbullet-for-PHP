@@ -1,5 +1,5 @@
 {
-    "name": "ivkos/pushbullet",
+    "name": "pcs/pushbullet",
     "description": "Push notifications to devices and browsers via Pushbullet",
     "keywords": [
         "push",
@@ -11,13 +11,13 @@
         "windows",
         "pushbullet"
     ],
-    "homepage": "https://github.com/ivkos/Pushbullet-for-PHP",
+    "homepage": "https://github.com/Pasquale-CS/Pushbullet-for-PHP",
     "license": "MIT",
     "authors": [
         {
-            "name": "Ivaylo Stoyanov",
-            "email": "me@ivkos.com",
-            "homepage": "https://github.com/ivkos"
+            "name": "Pasquale Cappa Spina",
+            "email": "webmaster@pasqualecappaspina.com",
+            "homepage": "https://pasqualecappaspina.com"
         }
     ],
     "require": {
