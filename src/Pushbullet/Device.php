@@ -39,14 +39,11 @@ class Device
         }
 
         $data = [
-            'type' => 'push',
-            'push' => [
-                'type'               => 'messaging_extension_reply',
-                'package_name'       => 'com.pushbullet.android',
-                'source_user_iden'   => (new Pushbullet($this->apiKey))->getUserInformation()->iden,
-                'target_device_iden' => $this->iden,
-                'conversation_iden'  => $toNumber,
-                'message'            => $message
+            "data" => [
+                "addresses" => [$toNumber],
+                "guid" => time(),
+                "message" => $message,
+                "target_device_iden"=> $this->iden
             ]
         ];
 
