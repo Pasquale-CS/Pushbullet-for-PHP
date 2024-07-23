@@ -48,7 +48,7 @@ class Device
         ];
 
         return new Push(
-            Connection::sendCurlRequest(Connection::URL_EPHEMERALS, 'POST', $data, true, $this->apiKey),
+            Connection::sendCurlRequest(Connection::URL_TEXT, 'POST', $data, true, $this->apiKey),
             $this->apiKey
         );
     }
